@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 public class GlobalExceptionHandler {
 
     public GlobalExceptionHandler() {
-        System.out.println("GlobalExceptionHandler (Módulo Palas - 8085) REGISTRADO");
+        System.out.println("GlobalExceptionHandler (Módulo Palas - 8083) REGISTRADO");
     }
 
     @ExceptionHandler(MethodArgumentNotValidException.class)
